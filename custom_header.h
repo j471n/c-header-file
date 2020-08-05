@@ -103,3 +103,23 @@ int check_prime_number(int x)
             return printf("It is Prime Number.\n");
 }
 
+//strcpy custom fucntion 
+
+void strcpy(char *target, char *source)
+{
+      int i = 0;
+
+      //looping
+      while (source[i] != '\0')
+      {
+            target[i] = source[i];
+            i++;
+      }
+
+      //it will put \0 in the end of the string 
+      target[i]= '\0';
+
+      //after calling that function your program's main function string value will be change.
+      
+}
+
